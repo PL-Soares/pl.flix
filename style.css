@@ -1,0 +1,63 @@
+body {
+    color: rgb(115, 6, 165);
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(16, 103, 218);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(5, 52, 114);
+}
+
+section {
+    background: rgb(66, 63, 63);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+H1 {
+    font-size: 21px;
+}
+
+p{
+    font-size: 10,5px;
+}
+img{
+    height: 200px;
+}
+
+.coleções {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.categoria img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(24, 185, 190);
+}
+
+.categoria h2 {
+    color: rgb(179, 14, 179);
+}
